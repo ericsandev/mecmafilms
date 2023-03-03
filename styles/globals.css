@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-base: 'Montserrat', sans-serif;
+  --white: #ffffff;
+  --yellow: #ffbc02;
+  --orange: #f87a26;
+  --red: rgb(255, 0, 0);
+  --red-hypno: #e62039;
+--red-hypno-hover: #c02537;
+  --blue: #3959a7;
+  --black: #000;
+  --primary: #58c3cf;
+  --primary-text: #111011;
+  --pink: #ff97e1;
+  --secondary: #212121;
+  --secondary-text: #ffffff;
+  --accent: #505050;
+  --gray: #312f32;
+  --light: #e6e6e6;
+  --accent-text: #ffffff;
+}
+
+body{
+  font-size:16px;
+  font-family: var(--font-base);
+  background-color: #010101;
+  height: 100vh;
+
+}
+.main_bg {
+  background: #111011;
+  background: linear-gradient(
+    95deg,
+    #111011 0%,
+    #070707 50%
+  );
+}
+
+.hell_bg {
+  background: #FF0000;
+  background: linear-gradient(
+    190deg,
+    #FF0000 0%,
+    #111011 50%
+  );
+}
+
+.btn_primary:hover {
+  background:  #000000;
+  background: linear-gradient(
+    193deg,
+    #0e0d0c 15%,
+    rgb(0, 0, 0) 89%
+  );
+  color: #fff;
+}
+.btn_primary{
+  background:  #FF0000;
+  background: linear-gradient(
+    193deg,
+    #FF0000 15%,
+    #530e18 89%
+  );
+  color: rgb(255, 255, 255);
+  font-family: var(--font-bahiana);
+  display:block;
+}
+.btn_secondary{
+  background:  #181717;
+  background: linear-gradient(
+    193deg,
+    #111010 15%,
+    rgb(0, 0, 0) 89%
+  );
+  font-family: var(--font-bahiana);
+  display:block;
+}
+
+.btn_primary_outline {
+  background: transparent;
+  border: 3px solid
+    linear-gradient(
+      193deg,
+      rgb(185, 0, 0) 15%,
+      rgb(63, 15, 15) 89%
+    );
+    font-size:24px;
+    font-family: var(--font-bahiana);
+    display:block;
+}
+
+h1{
+  line-height: 1.1 !important;
+}
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+
+		transform: translatey(0px);
+	}
+}
+
+.countdown{
+  text-align: center;
+  max-width:90px;
+  min-width:40px;
+  border-radius: 8px;;
+}
+.countdown p{
+  font-weight: bold;
+  font-family: var(--font-bahiana);
+}
+.countdown span{
+  font-size:12px;
+}
+
+* {
+  cursor: none;
+  }
