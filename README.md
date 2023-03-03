@@ -1,10 +1,10 @@
 <p align="center">
-  <h1>Hyponofrens</h1>
+  <h1>Mecma Films</h1>
 Landing page design by <a href='https://www.behance.net/ericsandev'>Eric Sánchez Bernardini</a>
 <br/ >
   <p align="center">
     <br />
-    <a href="https://hypnofrensnft-nine.vercel.app/">View Demo</a>
+    <a href="#">View Demo</a>
   </p>
 </p>
 

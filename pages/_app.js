@@ -6,13 +6,10 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				<title>Hypnofrens 6666 NFTS</title>
-				<meta
-					name="title"
-					content="Hypnofrens - The only NFT banished from hell condemned to live in the Solana blockchain."
-				/>
+				<meta name="title" content="MECMA Films | Chicago, IL." />
 				<meta
 					name="description"
-					content='Hypnofrens focuses on establishing a brand IRL through partnerships with companies around the world. In addition to a partnership with an animation studio and writers for the creation of an animated series at the same time that we are preparing the next collection called "The Sensors".'
+					content="MECMA Films - Somos una empresa de filmación y producción de video y fotografía social y empresarial ofrece servicios de alta calidad para capturar momentos inolvidables. Con una amplia gama de opciones, desde bodas hasta eventos corporativos, esta empresa es la elección perfecta para aquellos que buscan una experiencia de primera clase en su producción audiovisual en Chicago, Illinois."
 				/>
 				<meta name="keywords" content="nft, marketplace" />
 				<meta name="robots" content="index, follow" />
@@ -31,11 +28,11 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					property="og:title"
-					content="Hypnofrens - The only NFT banished from hell condemned to live in the Solana blockchain."
+					content="MECMA Films | Chicago, IL."
 				/>
 				<meta
 					property="og:description"
-					content='Hypnofrens focuses on establishing a brand IRL through partnerships with companies around the world. In addition to a partnership with an animation studio and writers for the creation of an animated series at the same time that we are preparing the next collection called "The Sensors".'
+					content="MECMA Films - Somos una empresa de filmación y producción de video y fotografía social y empresarial ofrece servicios de alta calidad para capturar momentos inolvidables. Con una amplia gama de opciones, desde bodas hasta eventos corporativos, esta empresa es la elección perfecta para aquellos que buscan una experiencia de primera clase en su producción audiovisual en Chicago, Illinois."
 				/>
 				<meta
 					property="og:image"
@@ -56,11 +53,11 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					property="twitter:title"
-					content="Hypnofrens - The only NFT banished from hell condemned to live in the Solana blockchain."
+					content="MECMA Films | Chicago IL."
 				/>
 				<meta
 					property="twitter:description"
-					content='Hypnofrens focuses on establishing a brand IRL through partnerships with companies around the world. In addition to a partnership with an animation studio and writers for the creation of an animated series at the same time that we are preparing the next collection called "The Sensors".'
+					content="MECMA Films - Somos una empresa de filmación y producción de video y fotografía social y empresarial ofrece servicios de alta calidad para capturar momentos inolvidables. Con una amplia gama de opciones, desde bodas hasta eventos corporativos, esta empresa es la elección perfecta para aquellos que buscan una experiencia de primera clase en su producción audiovisual en Chicago, Illinois."
 				/>
 				<meta
 					property="twitter:image"
